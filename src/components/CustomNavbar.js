@@ -23,7 +23,10 @@ function CustomNavbar() {
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="https://drive.google.com/file/d/1HzXpPvmV6adVVx94nphYoeY-YF8MNQYu/view?usp=sharing">
+              <Nav.Link
+                href="https://drive.google.com/file/d/1HzXpPvmV6adVVx94nphYoeY-YF8MNQYu/view?usp=sharing"
+                target="_blank"
+              >
                 Resume
               </Nav.Link>
               <Nav.Link href="#work">Work</Nav.Link>
