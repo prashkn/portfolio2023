@@ -77,7 +77,7 @@ function Work() {
             imgsrc={tcs}
           />
         </Col>
-        <Col sm={12} md={6}>
+        <Col sm={12} md={6} style={{ marginBottom: "-10%" }}>
           <WorkCard
             company={workInfo.CISCOPM.company}
             jobTitle={workInfo.CISCOPM.jobTitle}

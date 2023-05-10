@@ -38,11 +38,50 @@ function App() {
           </Row>
         </div>
         <div id="work" className="work">
-          <h1>Work</h1>
+          <h1>💼 Work</h1>
           <Work />
         </div>
+        <div id="education" className="education">
+          <h1>🎓 Education</h1>
+          <Row>
+            <Col>
+              <h4>University of Illinois at Urbana-Champaign</h4>
+            </Col>
+            <Col style={{ textAlign: "right" }}>
+              <h5 style={{ fontStyle: "italic" }}>Champaign, IL</h5>
+            </Col>
+          </Row>
+          <Row>
+            <Col id="gpa">
+              <h5>GPA: 3.82/4.00</h5>
+              <h6>Dean's List</h6>
+            </Col>
+            <Col>
+              <h5>
+                Relevant Coursework:
+                <span>
+                  <h6>
+                    Core: Data Structures & Algorithms, Intro to Algorithms and
+                    Models of Computation, Systems Programming, Computer
+                    Architecture
+                  </h6>
+                  <h6>
+                    Theory: Discrete Structures, Numerical Methods, Linear
+                    Algebra, Probability and Stats
+                  </h6>
+                  <h6>
+                    Electives: Computational Advertising Infrastructure, UI/UX
+                    Design, Art of Web Programming, (Fall 2023) Computational
+                    Photography, (Fall 2023) Game Development, (Spring 2024)
+                    Deep Learning for Computer Vision
+                  </h6>
+                </span>
+              </h5>
+            </Col>
+          </Row>
+        </div>
         <div id="projects" className="projects">
-          <h1>Projects</h1>
+          <h1>🖥️ Projects</h1>
           <Projects />
         </div>
         <div id="background" className="background">
