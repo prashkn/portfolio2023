@@ -18,7 +18,7 @@ function App() {
             <Col xs={9}>
               <h2>Prashant Naganaboyina</h2>
               <h4>
-                Junior in Computer Science @ UIUC. Track in Intelligence & Big
+                Senior in Computer Science @ UIUC. Track in Intelligence & Big
                 Data.
               </h4>
               <h4>
@@ -53,7 +53,7 @@ function App() {
           </Row>
           <Row>
             <Col id="gpa">
-              <h5>GPA: 3.82/4.00</h5>
+              <h5>GPA: 3.81/4.00</h5>
               <h6>Dean's List</h6>
             </Col>
             <Col>
