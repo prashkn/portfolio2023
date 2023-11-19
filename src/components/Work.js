@@ -96,7 +96,8 @@ const workInfo = {
     company: "Tanium",
     jobTitle: "Software Engineer Intern",
     date: "June 2023 - August 2023",
-    description: "We'll see!",
+    description:
+      "Built a feature that allows hundreds of Tanium employees move data from clients' environments to their personal laptops.",
   },
   METLIFE: {
     company: "MetLife",

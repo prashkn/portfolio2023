@@ -1,9 +1,10 @@
 import "./App.css";
 import CustomNavbar from "./components/CustomNavbar";
 import Work from "./components/Work";
-import pic from "./assets/prashant.JPG";
+import pic from "./assets/pkn.png";
 import { Row, Col } from "react-bootstrap";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
+import Repos from "./components/Repos";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
                 Data.
               </h4>
               <h4>
-                Software Engineering Intern @
+                Prev. Software Engineering Intern @
                 <span className="highlight">
                   <a
                     href="https://www.cbinsights.com/research/cybersecurity-unicorns/"
@@ -81,8 +82,18 @@ function App() {
           </Row>
         </div>
         <div id="projects" className="projects">
-          <h1>🖥️ Projects</h1>
-          <Projects />
+          <h1 style={{ marginBottom: "0px" }}>🖥️ Projects</h1>
+          <p style={{ fontStyle: "italic" }}>
+            Projects scraped from:{" "}
+            <a
+              href="https://github.com/prashkn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/prashkn
+            </a>
+          </p>
+          <Repos />
         </div>
         <div id="background" className="background">
           <h1>Background</h1>
