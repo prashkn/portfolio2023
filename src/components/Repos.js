@@ -5,7 +5,7 @@ import { Row } from "react-bootstrap";
 function Repos() {
   const [repos, setRepos] = useState([]);
   useEffect(() => {
-    fetch("https://api.github.com/users/prashkn/repos?sort=updated")
+    fetch("https://api.github.com/users/prashkn/repos?sort=created")
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
